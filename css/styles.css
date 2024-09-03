@@ -56,6 +56,11 @@ header {
   box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+  #board {
+    grid-template-columns: repeat(5, 50px); /* Adjust for smaller screens */
+  }
+
 .square {
   border: 2px solid rgb(85, 147, 196);
   min-width: 60px;

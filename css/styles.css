@@ -13,14 +13,14 @@ body {
 #container {
   display: flex;
   background-color: white;
-  height: 80%;
+  height: 100%;
   align-items: center;
   flex-direction: column;
 }
 
 #game {
   width: 100%;
-  max-width: 500px;
+  max-width: 6000px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -71,14 +71,14 @@ header {
 }
 
 #keyboard-container {
-  height: 200px;
+  height: 100px;
 }
 
 .keyboard-row {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 0 auto 8px;
+  margin: 0 auto 4px;
   touch-action: manipulation;
 }
 
@@ -87,7 +87,7 @@ header {
   font-weight: bold;
   border: 0;
   padding: 0;
-  height: 58px;
+  height: 40px;
   cursor: pointer;
   background-color: rgb(48, 99, 139);
   color: rgb(242, 244, 245);

@@ -106,11 +106,11 @@ document.addEventListener("DOMContentLoaded", () => {
         guessedWordCount += 1;
 
         if (currentWord === word) {
-          window.alert("Congratulations!");
+          window.alert("Congratulations! Please enter your details in the form below");
         }
 
         if (guessedWords.length === 6) {
-          window.alert(`Sorry, you have no more guesses! The word is ${word}.`);
+          window.alert(`Sorry, you have no more guesses! The word is Shift.`);
         }
 
         guessedWords.push([]);
